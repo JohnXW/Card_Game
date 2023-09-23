@@ -1,0 +1,45 @@
+[gd_scene load_steps=8 format=3 uid="uid://cda2mbhwhnu6o"]
+
+[ext_resource type="Script" path="res://Scenes/card_base.gd" id="1_2yfse"]
+[ext_resource type="Texture2D" uid="uid://txhkw4pb0wtv" path="res://Art Assets/CardAssets/pixelCardAssest_V01 (1).png" id="1_4xcya"]
+[ext_resource type="Texture2D" uid="uid://0t2or7bxxrfm" path="res://Art Assets/CardAssets/pixelCardAssest_V01 (8).png" id="3_pwxk4"]
+[ext_resource type="Texture2D" uid="uid://dq81j286j4ie7" path="res://Art Assets/Attacks/Cleave.png" id="4_51kfa"]
+[ext_resource type="Texture2D" uid="uid://cmx4i6tx14ob2" path="res://Art Assets/CardAssets/pixelCardAssest_V01 (19).png" id="5_knpqg"]
+[ext_resource type="FontFile" uid="uid://gfqwkar0r6c8" path="res://Art Assets/NormalFont.ttf" id="6_8ouuo"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_l662l"]
+line_spacing = 0.0
+font = ExtResource("6_8ouuo")
+font_size = 9
+
+[node name="Card Base" type="MarginContainer"]
+offset_right = 100.0
+offset_bottom = 127.0
+scale = Vector2(1.5, 1.5)
+script = ExtResource("1_2yfse")
+
+[node name="Card" type="Sprite2D" parent="."]
+texture = ExtResource("1_4xcya")
+centered = false
+
+[node name="Frame" type="Sprite2D" parent="."]
+position = Vector2(50, 47)
+texture = ExtResource("3_pwxk4")
+
+[node name="CardImage" type="Sprite2D" parent="."]
+position = Vector2(50, 46)
+texture = ExtResource("4_51kfa")
+
+[node name="LabelBackground" type="Sprite2D" parent="."]
+position = Vector2(51, 11)
+texture = ExtResource("5_knpqg")
+
+[node name="Label" type="Label" parent="LabelBackground"]
+offset_left = -46.0
+offset_top = -9.0
+offset_right = 44.0
+offset_bottom = 6.0
+text = "CLEAVE"
+label_settings = SubResource("LabelSettings_l662l")
+horizontal_alignment = 1
+vertical_alignment = 1
