@@ -1,5 +1,8 @@
 Label
+MarginContainer
+TextureRect
+PanelContainer
+CanvasLayer
 VBoxContainer
 Sprite2D
-MarginContainer
 Control

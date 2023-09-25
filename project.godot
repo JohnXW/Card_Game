@@ -21,9 +21,8 @@ Cards_Database="*res://cards_database.gd"
 
 [display]
 
-window/size/viewport_width=1000
+window/size/viewport_width=1001
 window/size/viewport_height=550
-window/size/resizable=false
 
 [rendering]
 
