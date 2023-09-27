@@ -1,3 +1,2 @@
 res://Scenes/card_base.tscn
-res://Scenes/card_base.gd
-res://Scenes/LabelSetting1.tres
+res://Scenes/play_zone.tscn

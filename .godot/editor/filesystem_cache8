@@ -1,18 +1,21 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1695622060
-cards_database.gd::GDScript::-1::1695608396::0::1::::<>MarginContainer<>::
-main.tscn::PackedScene::1246838079429437507::1695528484::0::1::::<><>::
-::res://Art Assets/::1695607812
+::res://::1695806278
+main.tscn::PackedScene::534348057903532302::1695694238::0::1::::<><>::
+::res://Art Assets/::1695695143
 cardBacks.png::CompressedTexture2D::8219062984321388295::1695344790::1695345094::1::::<><>::
 cardripFX_spritesheet.png::CompressedTexture2D::6988978910341974485::1695344686::1695345094::1::::<><>::
+Desert 2.jpg::CompressedTexture2D::4937595933970792982::1560472975::1695694817::1::::<><>::
 monogram.ttf::FontFile::3097244311766744007::1695607799::1695607812::1::::<><>::
 NormalFont.ttf::FontFile::432466235988680473::1693723883::1695482996::1::::<><>::
 pixelCardAssest_V01.png::CompressedTexture2D::7518901328749943471::1695344635::1695345094::1::::<><>::
 SpriteSheet.png::CompressedTexture2D::5777449839216243389::1693723883::1695433826::1::::<><>::
 squareCircle_vector.png::CompressedTexture2D::5678692360807327366::1695344768::1695345099::1::::<><>::
-::res://Art Assets/Attacks/::1695483656
+::res://Art Assets/Attacks/::1695802687
+Arrow.png::CompressedTexture2D::2078657595470221392::1693723883::1695802267::1::::<><>::
+Claw.png::CompressedTexture2D::2866793723738303990::1695802682::1695802687::1::::<><>::
+ClawSprites.png::CompressedTexture2D::29055949478100207::1693723883::1695780671::1::::<><>::
 Cleave.png::CompressedTexture2D::8352004199659540064::1693723883::1695434952::1::::<><>::
-::res://Art Assets/CardAssets/::1695622526
+::res://Art Assets/CardAssets/::1695693126
 pixelCardAssest_V01 (1).png::CompressedTexture2D::1381512795351311979::1695347930::1695348069::1::::<><>::
 pixelCardAssest_V01 (2).png::CompressedTexture2D::3621249943870537853::1695347930::1695348069::1::::<><>::
 pixelCardAssest_V01 (3).png::CompressedTexture2D::3283230428249862913::1695347930::1695348069::1::::<><>::
@@ -20,7 +23,7 @@ pixelCardAssest_V01 (4).png::CompressedTexture2D::7621998525567552233::169534793
 pixelCardAssest_V01 (5).png::CompressedTexture2D::8728757798973893489::1695347930::1695348069::1::::<><>::
 pixelCardAssest_V01 (6).png::CompressedTexture2D::3201458574825162138::1695347930::1695348069::1::::<><>::
 pixelCardAssest_V01 (7).png::CompressedTexture2D::4246065317710353981::1695370796::1695370799::1::::<><>::
-pixelCardAssest_V01 (8).png::CompressedTexture2D::1795609570605097154::1695481350::1695481351::1::::<><>::
+pixelCardAssest_V01 (8).png::CompressedTexture2D::1795609570605097154::1695692513::1695692513::1::::<><>::
 pixelCardAssest_V01 (9).png::CompressedTexture2D::2694413038740782838::1695370796::1695370799::1::::<><>::
 pixelCardAssest_V01 (10).png::CompressedTexture2D::8206999396513259267::1695370796::1695370799::1::::<><>::
 pixelCardAssest_V01 (11).png::CompressedTexture2D::2322474375501389621::1695370796::1695370799::1::::<><>::
@@ -30,7 +33,7 @@ pixelCardAssest_V01 (14).png::CompressedTexture2D::6367640183517752518::16954774
 pixelCardAssest_V01 (15).png::CompressedTexture2D::6954734161296308779::1695477458::1695477498::1::::<><>::
 pixelCardAssest_V01 (16).png::CompressedTexture2D::8295496814077870494::1695477458::1695477498::1::::<><>::
 pixelCardAssest_V01 (17).png::CompressedTexture2D::4082076802097403636::1695477458::1695477498::1::::<><>::
-pixelCardAssest_V01 (18).png::CompressedTexture2D::1160999291625121796::1695527074::1695527074::1::::<><>::
+pixelCardAssest_V01 (18).png::CompressedTexture2D::1160999291625121796::1695693124::1695693126::1::::<><>::
 pixelCardAssest_V01 (19).png::CompressedTexture2D::5664364917183486109::1695481086::1695481089::1::::<><>::
 pixelCardAssest_V01 (20).png::CompressedTexture2D::3634599917611967134::1695477459::1695477498::1::::<><>::
 pixelCardAssest_V01 (21).png::CompressedTexture2D::1901543306504764109::1695622525::1695622563::1::::<><>::
@@ -45,11 +48,15 @@ pixelCardAssest_V01 (29).png::CompressedTexture2D::692286080569537037::169562252
 pixelCardAssest_V01 (30).png::CompressedTexture2D::7194658032739759754::1695622526::1695622563::1::::<><>::
 pixelCardAssest_V01 (31).png::CompressedTexture2D::5897637423377070451::1695622526::1695622563::1::::<><>::
 pixelCardAssest_V01.png::CompressedTexture2D::4753989920659976308::1695370796::1695370799::1::::<><>::
-::res://Scenes/::1695622169
-card_base.gd::GDScript::-1::1695622169::0::1::::<>MarginContainer<>::
-card_base.tscn::PackedScene::4985068750978302420::1695622169::0::1::::<><>::res://Scenes/card_base.gd<>uid://txhkw4pb0wtv::::res://Art Assets/CardAssets/pixelCardAssest_V01 (1).png<>uid://0t2or7bxxrfm::::res://Art Assets/CardAssets/pixelCardAssest_V01 (8).png<>uid://dq81j286j4ie7::::res://Art Assets/Attacks/Cleave.png<>uid://cmx4i6tx14ob2::::res://Art Assets/CardAssets/pixelCardAssest_V01 (19).png<>uid://b7ayfchhimxt0::::res://Scenes/LabelSetting1.tres<>uid://qsnqu7hmgsoq::::res://Art Assets/CardAssets/pixelCardAssest_V01 (18).png
-LabelSetting1.tres::LabelSettings::4633929933095625723::1695608053::0::1::::<><>::uid://bkelfqp2k881h::::res://Art Assets/monogram.ttf
-main.tscn::PackedScene::7966089212312808840::1695285071::0::1::::<><>::
+::res://Scenes/::1695806263
+card_base.tscn::PackedScene::4985068750978302420::1695806263::0::1::::<><>::uid://txhkw4pb0wtv::::res://Art Assets/CardAssets/pixelCardAssest_V01 (1).png<>res://Scripts/card_base.gd<>uid://0t2or7bxxrfm::::res://Art Assets/CardAssets/pixelCardAssest_V01 (8).png<>uid://bg3xw55qydej3::::res://Art Assets/Attacks/Claw.png<>uid://b7ayfchhimxt0::::res://Scenes/LabelSetting1.tres<>uid://qsnqu7hmgsoq::::res://Art Assets/CardAssets/pixelCardAssest_V01 (18).png<>uid://bcp6gb2ksc6vf::::res://Art Assets/CardAssets/pixelCardAssest_V01 (27).png
+LabelSetting1.tres::LabelSettings::4633929933095625723::1695623890::0::1::::<><>::uid://bkelfqp2k881h
+play_zone.tscn::PackedScene::5386324375397628239::1695806250::0::1::::<><>::uid://ccl2qpdaqqrl3::::res://Art Assets/Desert 2.jpg<>res://Scripts/play_zone.gd
+::res://Scripts/::1695805952
+cards_database.gd::GDScript::-1::1695780960::0::1::::<>MarginContainer<>::
+card_base.gd::GDScript::-1::1695803430::0::1::::<>MarginContainer<>::
+player_hand.gd::GDScript::-1::1695778147::0::1::::<>RefCounted<>::
+play_zone.gd::GDScript::-1::1695805952::0::1::::<>Node2D<>::
 ::res://Useless/::1695344985
 icon.svg::CompressedTexture2D::3468046333973271725::1695284370::1695344985::1::::<><>::
 README.md::TextFile::-1::1695283979::0::1::::<><>::

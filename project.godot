@@ -17,12 +17,20 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-Cards_Database="*res://cards_database.gd"
+Cards_Database="*res://Scripts/cards_database.gd"
 
 [display]
 
-window/size/viewport_width=1001
+window/size/viewport_width=1000
 window/size/viewport_height=550
+
+[input]
+
+ui_leftClick={
+"deadzone": 0.5,
+"events": [Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":1,"position":Vector2(354, 10),"global_position":Vector2(358, 53),"factor":1.0,"button_index":1,"canceled":false,"pressed":true,"double_click":false,"script":null)
+]
+}
 
 [rendering]
 

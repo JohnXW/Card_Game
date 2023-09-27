@@ -1,8 +1,10 @@
-Label
+Node
 MarginContainer
+VSplitContainer
+VBoxContainer
+Label
 TextureRect
 PanelContainer
 CanvasLayer
-VBoxContainer
 Sprite2D
 Control

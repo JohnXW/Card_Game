@@ -1,10 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://cda2mbhwhnu6o"]
+[gd_scene load_steps=8 format=3 uid="uid://cda2mbhwhnu6o"]
 
-[ext_resource type="Script" path="res://Scenes/card_base.gd" id="1_2yfse"]
 [ext_resource type="Texture2D" uid="uid://txhkw4pb0wtv" path="res://Art Assets/CardAssets/pixelCardAssest_V01 (1).png" id="1_4xcya"]
+[ext_resource type="Script" path="res://Scripts/card_base.gd" id="1_tjmfg"]
 [ext_resource type="Texture2D" uid="uid://0t2or7bxxrfm" path="res://Art Assets/CardAssets/pixelCardAssest_V01 (8).png" id="3_pwxk4"]
-[ext_resource type="Texture2D" uid="uid://dq81j286j4ie7" path="res://Art Assets/Attacks/Cleave.png" id="4_51kfa"]
-[ext_resource type="Texture2D" uid="uid://cmx4i6tx14ob2" path="res://Art Assets/CardAssets/pixelCardAssest_V01 (19).png" id="5_knpqg"]
+[ext_resource type="Texture2D" uid="uid://bg3xw55qydej3" path="res://Art Assets/Attacks/Claw.png" id="4_1romn"]
 [ext_resource type="LabelSettings" uid="uid://b7ayfchhimxt0" path="res://Scenes/LabelSetting1.tres" id="6_iw0hi"]
 [ext_resource type="Texture2D" uid="uid://qsnqu7hmgsoq" path="res://Art Assets/CardAssets/pixelCardAssest_V01 (18).png" id="7_x01bh"]
 [ext_resource type="Texture2D" uid="uid://bcp6gb2ksc6vf" path="res://Art Assets/CardAssets/pixelCardAssest_V01 (27).png" id="8_qwm6h"]
@@ -12,49 +11,59 @@
 [node name="Card Base" type="MarginContainer"]
 offset_right = 100.0
 offset_bottom = 127.0
-scale = Vector2(1.5, 1.5)
-script = ExtResource("1_2yfse")
+script = ExtResource("1_tjmfg")
 
 [node name="Card" type="TextureRect" parent="."]
 layout_mode = 2
 texture = ExtResource("1_4xcya")
 
 [node name="Frame" type="Sprite2D" parent="Card"]
-position = Vector2(50, 47)
+position = Vector2(50, 39)
 texture = ExtResource("3_pwxk4")
 
-[node name="CardImage" type="Sprite2D" parent="Card"]
-position = Vector2(50, 46)
-texture = ExtResource("4_51kfa")
+[node name="CardImage" type="Sprite2D" parent="Card/Frame"]
+visibility_layer = 15
+texture = ExtResource("4_1romn")
 
-[node name="NameBackground" type="Sprite2D" parent="Card"]
-position = Vector2(51, 11)
-texture = ExtResource("5_knpqg")
+[node name="DescriptionBox" type="Sprite2D" parent="Card"]
+position = Vector2(50, 96)
+texture = ExtResource("7_x01bh")
 
-[node name="NameLabel" type="Label" parent="Card/NameBackground"]
-offset_left = -46.0
-offset_top = -9.0
-offset_right = 44.0
-offset_bottom = 6.0
-text = "bruh"
+[node name="TLContainer" type="MarginContainer" parent="Card/DescriptionBox"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -63.0
+offset_top = -25.0
+offset_right = -23.0
+offset_bottom = -9.0
+grow_horizontal = 2
+
+[node name="TitleLabel" type="Label" parent="Card/DescriptionBox/TLContainer"]
+layout_mode = 2
+text = "Title"
 label_settings = ExtResource("6_iw0hi")
 horizontal_alignment = 1
 vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
 
-[node name="DescriptionBox" type="Sprite2D" parent="Card"]
-position = Vector2(50, 95.3333)
-texture = ExtResource("7_x01bh")
-
-[node name="MarginContainer" type="MarginContainer" parent="Card/DescriptionBox"]
-offset_left = -35.0
-offset_top = -12.0
-offset_right = 65.0
-offset_bottom = 19.0
+[node name="DescriptContainer" type="MarginContainer" parent="Card/DescriptionBox"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -78.0
+offset_top = -38.0
+offset_right = 22.0
+offset_bottom = 5.0
+grow_horizontal = 2
+grow_vertical = 2
 scale = Vector2(0.7, 0.7)
 
-[node name="DescriptionLabel" type="Label" parent="Card/DescriptionBox/MarginContainer"]
+[node name="DescriptionLabel" type="Label" parent="Card/DescriptionBox/DescriptContainer"]
 layout_mode = 2
-text = "HI"
+text = "Description"
 label_settings = ExtResource("6_iw0hi")
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -78,7 +87,7 @@ grow_vertical = 2
 
 [node name="ManaLabel" type="Label" parent="Card/ManaBox/MarginContainer"]
 layout_mode = 2
-text = "5"
+text = "?"
 label_settings = ExtResource("6_iw0hi")
 horizontal_alignment = 1
 vertical_alignment = 1
