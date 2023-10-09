@@ -21,8 +21,20 @@ Cards_Database="*res://Scripts/cards_database.gd"
 
 [display]
 
-window/size/viewport_width=1000
-window/size/viewport_height=550
+window/size/viewport_width=800
+window/size/viewport_height=480
+window/stretch/mode="canvas_items"
+
+[editor_plugins]
+
+enabled=PackedStringArray()
+
+[gui]
+
+theme/custom_font="res://Art Assets/monogram.ttf"
+theme/default_font_antialiasing=0
+theme/default_font_hinting=0
+theme/default_font_subpixel_positioning=0
 
 [input]
 
