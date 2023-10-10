@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bpn7hmgwyjlsv"
-path="res://.godot/imported/icon.svg-3878e346d27ad31f406b5c3a741ab076.ctex"
+uid="uid://dwj60d1rd0jxn"
+path="res://.godot/imported/TilesetFloor.png-c83613fcdf10a87b5ff34b6b0cd433a1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Useless/icon.svg"
-dest_files=["res://.godot/imported/icon.svg-3878e346d27ad31f406b5c3a741ab076.ctex"]
+source_file="res://Art Assets/Ninja Adventure/TilesetFloor.png"
+dest_files=["res://.godot/imported/TilesetFloor.png-c83613fcdf10a87b5ff34b6b0cd433a1.ctex"]
 
 [params]
 
@@ -32,6 +32,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false

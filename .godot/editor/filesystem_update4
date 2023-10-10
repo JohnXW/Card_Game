@@ -1,3 +1,6 @@
-res://Scenes/player.tscn
 res://Scenes/play_zone.tscn
+res://Scenes/player.tscn
 res://Scenes/card_base.tscn
+res://Scenes/player_combat.tscn
+res://Scenes/world.tscn
+res://Scenes/combat.tscn
