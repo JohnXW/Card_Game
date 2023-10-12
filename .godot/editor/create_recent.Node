@@ -1,3 +1,5 @@
+MarginContainer
+VBoxContainer
 CollisionShape2D
 Area2D
 Camera2D
@@ -5,10 +7,8 @@ TileMap
 AnimationPlayer
 Sprite2D
 CharacterBody2D
-VBoxContainer
 TextureRect
 Label
-MarginContainer
 VSeparator
 Control
 HBoxContainer

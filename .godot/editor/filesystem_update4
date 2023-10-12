@@ -1,8 +1,8 @@
-res://Scenes/CombatArea.gd
-res://Scenes/World.tscn
 res://Scenes/combat.tscn
 res://Scenes/player_combat.tscn
 res://Scenes/card_base.tscn
 res://Scenes/player.tscn
 res://Scenes/tile_map.tscn
+res://Scenes/World.tscn
 res://Scripts/player_combat.gd
+res://Scripts/card_base.gd

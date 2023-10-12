@@ -16,9 +16,9 @@ func _ready():
 	#Scale image to fit border
 	$Card/Frame/CardImage.scale *= (cardSize-14)/($Card/Frame/CardImage.texture.get_height())
 	#load name of card
-	$Card/DescriptionBox/TLContainer/TitleLabel.text = cardInfo[1]
+	$Card/DescriptionBox/VBoxContainer/TitleLabel.text = cardInfo[1]
 	#load description
-	$Card/DescriptionBox/DescriptContainer/DescriptionLabel.text = cardInfo[2]
+	$Card/DescriptionBox/VBoxContainer/DescriptionLabel.text = cardInfo[2]
 	#load mana cost
 	$Card/ManaBox/MarginContainer/ManaLabel.text = str(cardInfo[3])
 	#print(cardSize/$Card.texture.get_size())
