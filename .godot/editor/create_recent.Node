@@ -1,11 +1,12 @@
+TextureButton
+AnimationPlayer
+Sprite2D
 MarginContainer
 VBoxContainer
 CollisionShape2D
 Area2D
 Camera2D
 TileMap
-AnimationPlayer
-Sprite2D
 CharacterBody2D
 TextureRect
 Label

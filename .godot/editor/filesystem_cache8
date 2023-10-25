@@ -1,6 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697076398
-::res://Art Assets/::1696929065
+::res://::1698199559
+::res://Art Assets/::1697534358
 cardBacks.png::CompressedTexture2D::8219062984321388295::1695344790::1695345094::1::::<><>::
 cardripFX_spritesheet.png::CompressedTexture2D::6988978910341974485::1695344686::1695345094::1::::<><>::
 cyberpunk-street.png::CompressedTexture2D::148205362579865060::1677669008::1696836630::1::::<><>::
@@ -14,7 +14,7 @@ Claw.png::CompressedTexture2D::2866793723738303990::1695802682::1695802687::1:::
 ClawSprites.png::CompressedTexture2D::29055949478100207::1693723883::1695780671::1::::<><>::
 Cleave.png::CompressedTexture2D::8352004199659540064::1693723883::1695434952::1::::<><>::
 SpriteSheet.png::CompressedTexture2D::4378727146880243647::1693723883::1696928976::1::::<><>::
-::res://Art Assets/CardAssets/::1696839083
+::res://Art Assets/CardAssets/::1697534358
 CardBackGreen.png::CompressedTexture2D::6163705189658524103::1696834775::1696834927::1::::<><>::
 CardBackGrey.png::CompressedTexture2D::1818507012374691907::1696834775::1696835003::1::::<><>::
 CardBackPurple.png::CompressedTexture2D::3935759706866785783::1696834775::1696835087::1::::<><>::
@@ -56,20 +56,20 @@ SpriteSheet.png::CompressedTexture2D::7961337007402085066::1693723883::169692925
 TilesetFloor.png::CompressedTexture2D::8723923081038306647::1693754604::1696929252::1::::<><>::
 TilesetHouse.png::CompressedTexture2D::5948417696022022837::1693754604::1696929252::1::::<><>::
 TilesetNature.png::CompressedTexture2D::5835876596287017030::1693754604::1696929252::1::::<><>::
-::res://Player/::1696995411
-player.gd::GDScript::-1::1696995411::0::1::::Player<>CharacterBody2D<>::
-::res://Scenes/::1697015480
-card_base.tscn::PackedScene::4985068750978302420::1697015221::0::1::::<><>::uid://txhkw4pb0wtv::::res://Art Assets/CardAssets/pixelCardAssest_V01 (1).png<>res://Scripts/card_base.gd<>uid://0t2or7bxxrfm::::res://Art Assets/CardAssets/pixelCardAssest_V01 (8).png<>uid://bg3xw55qydej3::::res://Art Assets/Attacks/Claw.png<>uid://qsnqu7hmgsoq::::res://Art Assets/CardAssets/pixelCardAssest_V01 (18).png<>uid://bkelfqp2k881h::::res://Art Assets/monogram.ttf<>uid://bcp6gb2ksc6vf::::res://Art Assets/CardAssets/pixelCardAssest_V01 (27).png
-combat.tscn::PackedScene::5386324375397628239::1697015480::0::1::::<><>::res://Scripts/combat.gd<>uid://ccl2qpdaqqrl3::::res://Art Assets/Desert 2.jpg<>uid://bkelfqp2k881h::::res://Art Assets/monogram.ttf<>uid://drfvfbtarju4i::::res://Scenes/player_combat.tscn
+::res://Player/::1697534358
+player.gd::GDScript::-1::1697534358::0::1::::Player<>CharacterBody2D<>::
+::res://Scenes/::1698138019
+card_base.tscn::PackedScene::4985068750978302420::1698137903::0::1::::<><>::uid://txhkw4pb0wtv::::res://Art Assets/CardAssets/pixelCardAssest_V01 (1).png<>res://Scripts/card_base.gd<>uid://0t2or7bxxrfm::::res://Art Assets/CardAssets/pixelCardAssest_V01 (8).png<>uid://bg3xw55qydej3::::res://Art Assets/Attacks/Claw.png<>uid://qsnqu7hmgsoq::::res://Art Assets/CardAssets/pixelCardAssest_V01 (18).png<>uid://bkelfqp2k881h::::res://Art Assets/monogram.ttf<>uid://bcp6gb2ksc6vf::::res://Art Assets/CardAssets/pixelCardAssest_V01 (27).png
+combat.tscn::PackedScene::5386324375397628239::1698137903::0::1::::<><>::res://Scripts/combat.gd<>uid://ccl2qpdaqqrl3::::res://Art Assets/Desert 2.jpg<>uid://bkelfqp2k881h::::res://Art Assets/monogram.ttf<>uid://drfvfbtarju4i::::res://Scenes/player_combat.tscn
 CombatArea.gd::GDScript::-1::1697014902::0::1::::<>Area2D<>::
-player.tscn::PackedScene::6403659395133995539::1697015221::0::1::::<><>::res://Player/player.gd<>uid://dlosb7j6sww1o::::res://Art Assets/Ninja Adventure/SpriteSheet.png
-player_combat.tscn::PackedScene::8364078349411502410::1697015221::0::1::::<><>::res://Scripts/player_combat.gd<>uid://ct20laqlp7mjv::::res://Art Assets/CardAssets/CardBackGreen.png
-tile_map.tscn::PackedScene::7450724982922618937::1697015221::0::1::::<><>::uid://dwj60d1rd0jxn::::res://Art Assets/Ninja Adventure/TilesetFloor.png
-World.tscn::PackedScene::8030965646164895917::1697015221::0::1::::<><>::uid://defgl72iiga3r::::res://Scenes/tile_map.tscn<>uid://cxh8lm4e4jdqp::::res://Scenes/player.tscn<>res://Scenes/CombatArea.gd
-::res://Scripts/::1697015480
+player.tscn::PackedScene::6403659395133995539::1698137903::0::1::::<><>::res://Player/player.gd<>uid://dlosb7j6sww1o::::res://Art Assets/Ninja Adventure/SpriteSheet.png
+player_combat.tscn::PackedScene::8364078349411502410::1698138019::0::1::::<><>::res://Scripts/player_combat.gd<>uid://ct20laqlp7mjv::::res://Art Assets/CardAssets/CardBackGreen.png<>uid://cqa4hycrji3el::::res://Art Assets/CardAssets/pixelCardAssest_V01 (31).png<>uid://dlosb7j6sww1o::::res://Art Assets/Ninja Adventure/SpriteSheet.png
+tile_map.tscn::PackedScene::7450724982922618937::1698137903::0::1::::<><>::uid://dwj60d1rd0jxn::::res://Art Assets/Ninja Adventure/TilesetFloor.png
+World.tscn::PackedScene::8030965646164895917::1698137903::0::1::::<><>::uid://defgl72iiga3r::::res://Scenes/tile_map.tscn<>uid://cxh8lm4e4jdqp::::res://Scenes/player.tscn<>res://Scenes/CombatArea.gd
+::res://Scripts/::1698137831
 cards_database.gd::GDScript::-1::1695780960::0::1::::<>MarginContainer<>::
-card_base.gd::GDScript::-1::1696814369::0::1::::<>MarginContainer<>::
+card_base.gd::GDScript::-1::1698134308::0::1::::<>MarginContainer<>::
 combat.gd::GDScript::-1::1696842122::0::1::::<>Node2D<>::
-player_combat.gd::GDScript::-1::1697015480::0::1::::<>Node2D<>::
+player_combat.gd::GDScript::-1::1698137831::0::1::::<>Node2D<>::
 ::res://Useless/::1696929643
 README.md::TextFile::-1::1695283979::0::1::::<><>::

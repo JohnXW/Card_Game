@@ -1,27 +1,54 @@
 extends "res://Scripts/cards_database.gd"
 
+var state = inHand
 var cardName = "Claw"
 var windowSize = DisplayServer.window_get_size()
 @onready var cardInfo = DATA[get(cardName)]
 @onready var cardImg = str("res://Art Assets/",cardInfo[0],"/",cardName,".png")
 #@onready var cardInfo = Cards_Database.DATA[Cards_Database.get(cardName)]
 
+
+enum{
+	inHand,
+	focusInHand
+}
+
+
 func _ready():
+	var cardSize = size
 #	print(windowSize)
 #	print(cardImg)
 #	print(DATA[get(cardName)])
-	var cardSize:float = $Card/Frame.texture.get_height()
+	var frameSize:float = $Frame.texture.get_height()
 	#load image
-	$Card/Frame/CardImage.texture = load(cardImg) 
+	$Frame/CardImage.texture = load(cardImg) 
 	#Scale image to fit border
-	$Card/Frame/CardImage.scale *= (cardSize-14)/($Card/Frame/CardImage.texture.get_height())
+	$Frame/CardImage.scale *= (frameSize-14)/($Frame/CardImage.texture.get_height())
 	#load name of card
-	$Card/DescriptionBox/VBoxContainer/TitleLabel.text = cardInfo[1]
+	$DescriptionBox/VBoxContainer/TitleLabel.text = cardInfo[1]
 	#load description
-	$Card/DescriptionBox/VBoxContainer/DescriptionLabel.text = cardInfo[2]
+	$DescriptionBox/VBoxContainer/DescriptionLabel.text = cardInfo[2]
 	#load mana cost
-	$Card/ManaBox/MarginContainer/ManaLabel.text = str(cardInfo[3])
-	#print(cardSize/$Card.texture.get_size())
+	$ManaBox/MarginContainer/ManaLabel.text = str(cardInfo[3])
+#	$Focus.texture_hover = load("res://Art Assets/Attacks/Arrow.png")
+	$Focus.scale *= cardSize/$Focus.size
+	
+func _physics_process(delta):
+	match state:
+		inHand:
+			pass
+		focusInHand:
+			pass
 
 	
 #	print(cardInfo)
+
+
+func _on_focus_mouse_entered():
+	print(self.name)
+	self.scale = Vector2(3,3)
+
+
+
+func _on_focus_mouse_exited():
+	self.scale = Vector2(1,1)
