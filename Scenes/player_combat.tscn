@@ -1,9 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://drfvfbtarju4i"]
+[gd_scene load_steps=9 format=3 uid="uid://drfvfbtarju4i"]
 
 [ext_resource type="Script" path="res://Scripts/player_combat.gd" id="1_g3l0w"]
-[ext_resource type="Texture2D" uid="uid://ct20laqlp7mjv" path="res://Art Assets/CardAssets/CardBackGreen.png" id="2_rsb7l"]
 [ext_resource type="Texture2D" uid="uid://cqa4hycrji3el" path="res://Art Assets/CardAssets/pixelCardAssest_V01 (31).png" id="3_7ct6g"]
 [ext_resource type="Texture2D" uid="uid://dlosb7j6sww1o" path="res://Art Assets/Ninja Adventure/SpriteSheet.png" id="3_ukp2u"]
+[ext_resource type="Texture2D" uid="uid://ogl7u4mcvdry" path="res://Art Assets/Ninja Adventure/WaterEnergy.png" id="5_kemsb"]
 
 [sub_resource type="Animation" id="Animation_wyhm6"]
 length = 0.001
@@ -42,13 +42,13 @@ _data = {
 "attack": SubResource("Animation_b8j3r")
 }
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3pmpp"]
+size = Vector2(824, 266)
+
 [node name="Player Combat" type="Node2D"]
 script = ExtResource("1_g3l0w")
 
-[node name="Cards" type="Node" parent="."]
-
 [node name="Player Area" type="HBoxContainer" parent="."]
-visible = false
 custom_minimum_size = Vector2(800, 120)
 offset_top = 352.0
 offset_right = 800.0
@@ -63,18 +63,24 @@ theme_override_constants/margin_left = 0
 layout_mode = 2
 theme_override_constants/separation = -5
 
-[node name="Label" type="Label" parent="Player Area/Deck/VBoxContainer"]
+[node name="TextureRect" type="TextureRect" parent="Player Area/Deck/VBoxContainer"]
 layout_mode = 2
-theme_override_colors/font_color = Color(0.615686, 0.870588, 0.556863, 1)
+texture = ExtResource("5_kemsb")
+expand_mode = 4
+stretch_mode = 5
+
+[node name="MarginContainer" type="MarginContainer" parent="Player Area/Deck/VBoxContainer/TextureRect"]
+layout_mode = 0
+offset_top = 25.0
+offset_right = 100.0
+offset_bottom = 94.0
+
+[node name="Label" type="Label" parent="Player Area/Deck/VBoxContainer/TextureRect/MarginContainer"]
+layout_mode = 2
 theme_override_font_sizes/font_size = 32
 text = "10"
 horizontal_alignment = 1
-
-[node name="TextureRect" type="TextureRect" parent="Player Area/Deck/VBoxContainer"]
-layout_mode = 2
-texture = ExtResource("2_rsb7l")
-expand_mode = 4
-stretch_mode = 5
+vertical_alignment = 1
 
 [node name="VSeparator" type="VSeparator" parent="Player Area"]
 visible = false
@@ -94,17 +100,28 @@ offset_bottom = 205.0
 scale = Vector2(3, 3)
 texture_normal = ExtResource("3_7ct6g")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(150, 201)
+[node name="Cards" type="Node" parent="."]
+
+[node name="PlayerSprite" type="Sprite2D" parent="."]
+position = Vector2(207, 317)
 scale = Vector2(4, 4)
 texture = ExtResource("3_ukp2u")
 hframes = 4
 vframes = 7
 frame = 11
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite2D"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="PlayerSprite"]
 libraries = {
 "": SubResource("AnimationLibrary_ocue5")
 }
 
+[node name="ActivateArea" type="Area2D" parent="."]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ActivateArea"]
+position = Vector2(400, 119)
+shape = SubResource("RectangleShape2D_3pmpp")
+
 [connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]
+[connection signal="area_entered" from="ActivateArea" to="." method="_on_activate_area_area_entered"]
+[connection signal="area_exited" from="ActivateArea" to="." method="_on_activate_area_area_exited"]

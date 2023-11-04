@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://ci0f8fxqobkd0"]
+[gd_scene load_steps=6 format=3 uid="uid://ci0f8fxqobkd0"]
 
 [ext_resource type="Script" path="res://Scripts/combat.gd" id="1_dh0st"]
 [ext_resource type="Texture2D" uid="uid://ccl2qpdaqqrl3" path="res://Art Assets/Desert 2.jpg" id="2_cwvqw"]
 [ext_resource type="FontFile" uid="uid://bkelfqp2k881h" path="res://Art Assets/monogram.ttf" id="3_hxheb"]
 [ext_resource type="PackedScene" uid="uid://drfvfbtarju4i" path="res://Scenes/player_combat.tscn" id="4_8h4tr"]
+[ext_resource type="PackedScene" uid="uid://bql0nwhsxapgi" path="res://Scenes/enemy_combat.tscn" id="5_226ce"]
 
 [node name="Combat" type="Node2D"]
 script = ExtResource("1_dh0st")
@@ -27,3 +28,8 @@ theme_override_fonts/font = ExtResource("3_hxheb")
 theme_override_font_sizes/font_size = 32
 text = "FPS"
 horizontal_alignment = 1
+
+[node name="Enemy Combat" parent="." instance=ExtResource("5_226ce")]
+position = Vector2(565, 277)
+
+[connection signal="damage" from="Player Combat" to="Enemy Combat" method="_on_player_combat_damage"]

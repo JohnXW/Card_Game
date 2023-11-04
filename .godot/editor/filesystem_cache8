@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1698199559
+::res://::1698905982
 ::res://Art Assets/::1697534358
 cardBacks.png::CompressedTexture2D::8219062984321388295::1695344790::1695345094::1::::<><>::
 cardripFX_spritesheet.png::CompressedTexture2D::6988978910341974485::1695344686::1695345094::1::::<><>::
@@ -51,25 +51,31 @@ pixelCardAssest_V01 (29).png::CompressedTexture2D::692286080569537037::169562252
 pixelCardAssest_V01 (30).png::CompressedTexture2D::7194658032739759754::1695622526::1695622563::1::::<><>::
 pixelCardAssest_V01 (31).png::CompressedTexture2D::5897637423377070451::1695622526::1695622563::1::::<><>::
 pixelCardAssest_V01.png::CompressedTexture2D::4753989920659976308::1695370796::1695370799::1::::<><>::
-::res://Art Assets/Ninja Adventure/::1696929252
+::res://Art Assets/Ninja Adventure/::1698828843
+Beast copy.png::CompressedTexture2D::4529569166818549924::1693723883::1698824912::1::::<><>::
+RedSpirit.png::CompressedTexture2D::745566312051274328::1698826405::1698826409::1::::<><>::
+SkullBlue.png::CompressedTexture2D::603997358798069573::1693723883::1698824912::1::::<><>::
 SpriteSheet.png::CompressedTexture2D::7961337007402085066::1693723883::1696929252::1::::<><>::
 TilesetFloor.png::CompressedTexture2D::8723923081038306647::1693754604::1696929252::1::::<><>::
 TilesetHouse.png::CompressedTexture2D::5948417696022022837::1693754604::1696929252::1::::<><>::
 TilesetNature.png::CompressedTexture2D::5835876596287017030::1693754604::1696929252::1::::<><>::
+WaterEnergy.png::CompressedTexture2D::995756205597257966::1698828842::1698828843::1::::<><>::
 ::res://Player/::1697534358
 player.gd::GDScript::-1::1697534358::0::1::::Player<>CharacterBody2D<>::
-::res://Scenes/::1698138019
-card_base.tscn::PackedScene::4985068750978302420::1698137903::0::1::::<><>::uid://txhkw4pb0wtv::::res://Art Assets/CardAssets/pixelCardAssest_V01 (1).png<>res://Scripts/card_base.gd<>uid://0t2or7bxxrfm::::res://Art Assets/CardAssets/pixelCardAssest_V01 (8).png<>uid://bg3xw55qydej3::::res://Art Assets/Attacks/Claw.png<>uid://qsnqu7hmgsoq::::res://Art Assets/CardAssets/pixelCardAssest_V01 (18).png<>uid://bkelfqp2k881h::::res://Art Assets/monogram.ttf<>uid://bcp6gb2ksc6vf::::res://Art Assets/CardAssets/pixelCardAssest_V01 (27).png
-combat.tscn::PackedScene::5386324375397628239::1698137903::0::1::::<><>::res://Scripts/combat.gd<>uid://ccl2qpdaqqrl3::::res://Art Assets/Desert 2.jpg<>uid://bkelfqp2k881h::::res://Art Assets/monogram.ttf<>uid://drfvfbtarju4i::::res://Scenes/player_combat.tscn
+::res://Scenes/::1698894850
+card_base.tscn::PackedScene::4985068750978302420::1698894850::0::1::::<><>::uid://txhkw4pb0wtv::::res://Art Assets/CardAssets/pixelCardAssest_V01 (1).png<>res://Scripts/card_base.gd<>uid://0t2or7bxxrfm::::res://Art Assets/CardAssets/pixelCardAssest_V01 (8).png<>uid://bg3xw55qydej3::::res://Art Assets/Attacks/Claw.png<>uid://qsnqu7hmgsoq::::res://Art Assets/CardAssets/pixelCardAssest_V01 (18).png<>uid://bkelfqp2k881h::::res://Art Assets/monogram.ttf<>uid://blv2wdn6ssg5k::::res://Art Assets/CardAssets/pixelCardAssest_V01 (23).png<>uid://bcp6gb2ksc6vf::::res://Art Assets/CardAssets/pixelCardAssest_V01 (27).png
+combat.tscn::PackedScene::5386324375397628239::1698894850::0::1::::<><>::res://Scripts/combat.gd<>uid://ccl2qpdaqqrl3::::res://Art Assets/Desert 2.jpg<>uid://bkelfqp2k881h::::res://Art Assets/monogram.ttf<>uid://drfvfbtarju4i::::res://Scenes/player_combat.tscn<>uid://bql0nwhsxapgi::::res://Scenes/enemy_combat.tscn
 CombatArea.gd::GDScript::-1::1697014902::0::1::::<>Area2D<>::
-player.tscn::PackedScene::6403659395133995539::1698137903::0::1::::<><>::res://Player/player.gd<>uid://dlosb7j6sww1o::::res://Art Assets/Ninja Adventure/SpriteSheet.png
-player_combat.tscn::PackedScene::8364078349411502410::1698138019::0::1::::<><>::res://Scripts/player_combat.gd<>uid://ct20laqlp7mjv::::res://Art Assets/CardAssets/CardBackGreen.png<>uid://cqa4hycrji3el::::res://Art Assets/CardAssets/pixelCardAssest_V01 (31).png<>uid://dlosb7j6sww1o::::res://Art Assets/Ninja Adventure/SpriteSheet.png
-tile_map.tscn::PackedScene::7450724982922618937::1698137903::0::1::::<><>::uid://dwj60d1rd0jxn::::res://Art Assets/Ninja Adventure/TilesetFloor.png
-World.tscn::PackedScene::8030965646164895917::1698137903::0::1::::<><>::uid://defgl72iiga3r::::res://Scenes/tile_map.tscn<>uid://cxh8lm4e4jdqp::::res://Scenes/player.tscn<>res://Scenes/CombatArea.gd
-::res://Scripts/::1698137831
-cards_database.gd::GDScript::-1::1695780960::0::1::::<>MarginContainer<>::
-card_base.gd::GDScript::-1::1698134308::0::1::::<>MarginContainer<>::
+enemy_combat.gd::GDScript::-1::1698826207::0::1::::<>Node2D<>::
+enemy_combat.tscn::PackedScene::3533692644512126976::1698894850::0::1::::<><>::res://Scenes/enemy_combat.gd<>uid://kvfmrw7gkitc::::res://Art Assets/Ninja Adventure/RedSpirit.png
+player.tscn::PackedScene::6403659395133995539::1698894850::0::1::::<><>::res://Player/player.gd<>uid://dlosb7j6sww1o::::res://Art Assets/Ninja Adventure/SpriteSheet.png
+player_combat.tscn::PackedScene::8364078349411502410::1698894850::0::1::::<><>::res://Scripts/player_combat.gd<>uid://cqa4hycrji3el::::res://Art Assets/CardAssets/pixelCardAssest_V01 (31).png<>uid://dlosb7j6sww1o::::res://Art Assets/Ninja Adventure/SpriteSheet.png<>uid://ogl7u4mcvdry::::res://Art Assets/Ninja Adventure/WaterEnergy.png
+tile_map.tscn::PackedScene::7450724982922618937::1698894850::0::1::::<><>::uid://dwj60d1rd0jxn::::res://Art Assets/Ninja Adventure/TilesetFloor.png
+World.tscn::PackedScene::8030965646164895917::1698894850::0::1::::<><>::uid://defgl72iiga3r::::res://Scenes/tile_map.tscn<>uid://cxh8lm4e4jdqp::::res://Scenes/player.tscn<>res://Scenes/CombatArea.gd
+::res://Scripts/::1698894850
+cards_database.gd::GDScript::-1::1698819653::0::1::::<>MarginContainer<>::
+card_base.gd::GDScript::-1::1698827545::0::1::::<>MarginContainer<>::
 combat.gd::GDScript::-1::1696842122::0::1::::<>Node2D<>::
-player_combat.gd::GDScript::-1::1698137831::0::1::::<>Node2D<>::
+player_combat.gd::GDScript::-1::1698894850::0::1::::<>Node2D<>::
 ::res://Useless/::1696929643
 README.md::TextFile::-1::1695283979::0::1::::<><>::

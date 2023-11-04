@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://cda2mbhwhnu6o"]
+[gd_scene load_steps=10 format=3 uid="uid://cda2mbhwhnu6o"]
 
 [ext_resource type="Texture2D" uid="uid://txhkw4pb0wtv" path="res://Art Assets/CardAssets/pixelCardAssest_V01 (1).png" id="1_4xcya"]
 [ext_resource type="Script" path="res://Scripts/card_base.gd" id="1_tjmfg"]
@@ -9,15 +9,28 @@
 [ext_resource type="Texture2D" uid="uid://blv2wdn6ssg5k" path="res://Art Assets/CardAssets/pixelCardAssest_V01 (23).png" id="8_eajkq"]
 [ext_resource type="Texture2D" uid="uid://bcp6gb2ksc6vf" path="res://Art Assets/CardAssets/pixelCardAssest_V01 (27).png" id="8_qwm6h"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_avxcp"]
+size = Vector2(100, 127)
+
 [node name="Card Base" type="MarginContainer"]
-offset_right = 100.0
-offset_bottom = 127.0
+offset_left = 142.0
+offset_top = 84.0
+offset_right = 242.0
+offset_bottom = 211.0
 pivot_offset = Vector2(50, 62.5)
 script = ExtResource("1_tjmfg")
 
 [node name="Card" type="Sprite2D" parent="."]
 texture = ExtResource("1_4xcya")
 centered = false
+
+[node name="ColorRect" type="ColorRect" parent="Card"]
+visible = false
+self_modulate = Color(1, 1, 1, 0.290196)
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 96.0
+offset_bottom = 123.0
 
 [node name="Frame" type="Sprite2D" parent="."]
 position = Vector2(50, 39)
@@ -37,9 +50,8 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -18.5
+offset_left = -18.0
 offset_top = -19.0
-offset_right = -0.5
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -77,7 +89,16 @@ autowrap_mode = 2
 
 [node name="Focus" type="TextureButton" parent="."]
 layout_mode = 2
-texture_hover = ExtResource("8_eajkq")
+texture_pressed = ExtResource("8_eajkq")
+
+[node name="CardCollision" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CardCollision"]
+visible = false
+position = Vector2(50, 63.5)
+shape = SubResource("RectangleShape2D_avxcp")
 
 [connection signal="mouse_entered" from="Focus" to="." method="_on_focus_mouse_entered"]
 [connection signal="mouse_exited" from="Focus" to="." method="_on_focus_mouse_exited"]
+[connection signal="area_entered" from="CardCollision" to="." method="_on_card_collision_area_entered"]
+[connection signal="area_exited" from="CardCollision" to="." method="_on_card_collision_area_exited"]

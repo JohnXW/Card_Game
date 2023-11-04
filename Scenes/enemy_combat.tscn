@@ -1,0 +1,59 @@
+[gd_scene load_steps=8 format=3 uid="uid://bql0nwhsxapgi"]
+
+[ext_resource type="Script" path="res://Scenes/enemy_combat.gd" id="1_dhwla"]
+[ext_resource type="Texture2D" uid="uid://kvfmrw7gkitc" path="res://Art Assets/Ninja Adventure/RedSpirit.png" id="1_dyw2j"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rfu38"]
+atlas = ExtResource("1_dyw2j")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v8w5m"]
+atlas = ExtResource("1_dyw2j")
+region = Rect2(0, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v6qmh"]
+atlas = ExtResource("1_dyw2j")
+region = Rect2(0, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wu6ws"]
+atlas = ExtResource("1_dyw2j")
+region = Rect2(0, 48, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3oo81"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rfu38")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v8w5m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v6qmh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wu6ws")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.0
+}]
+
+[node name="Enemy Combat" type="Node2D"]
+script = ExtResource("1_dhwla")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_3oo81")
+frame_progress = 0.191184
+
+[node name="HealthBar" type="ProgressBar" parent="."]
+modulate = Color(1, 0, 0, 1)
+offset_left = -44.0
+offset_top = 34.0
+offset_right = 45.0
+offset_bottom = 51.0
+max_value = 1.0
+step = 1.0
+value = 1.0
+show_percentage = false
