@@ -1,5 +1,6 @@
 extends Node2D
 
+signal enemyHealthSignal
 var enemyHealth = 5
 
 
@@ -12,6 +13,7 @@ func _ready():
 
 func _on_player_combat_damage(damage):
 	enemyHealth -= damage
+	enemyHealthSignal.emit(enemyHealth)
 	$HealthBar.value = enemyHealth
 	if enemyHealth <= 0:
 		self.queue_free()

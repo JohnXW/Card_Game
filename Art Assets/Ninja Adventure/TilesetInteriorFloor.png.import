@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bh0fjnms04oa2"
-path="res://.godot/imported/CardBackRed.png-c5f2ce7a0992e9b9be599985f74b5302.ctex"
+uid="uid://bs5hjijhbbxfw"
+path="res://.godot/imported/TilesetInteriorFloor.png-73e13ad1529a401a921ea114ae53f05c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art Assets/CardAssets/CardBackRed.png"
-dest_files=["res://.godot/imported/CardBackRed.png-c5f2ce7a0992e9b9be599985f74b5302.ctex"]
+source_file="res://Art Assets/Ninja Adventure/TilesetInteriorFloor.png"
+dest_files=["res://.godot/imported/TilesetInteriorFloor.png-73e13ad1529a401a921ea114ae53f05c.ctex"]
 
 [params]
 

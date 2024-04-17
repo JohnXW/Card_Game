@@ -1,5 +1,6 @@
 extends "res://Scripts/cards_database.gd"
 
+
 var state = inHand
 var cardName = "Claw"
 var t:float = 0
@@ -57,6 +58,7 @@ func _physics_process(delta):
 				state = inMouse
 #			t += delta/1
 #			scale = scale.lerp(Vector2(2,2), t)
+
 		inMouse:
 			if Input.is_action_just_released("ui_leftClick"):
 				state = placed
@@ -65,6 +67,7 @@ func _physics_process(delta):
 				position = Vector2(get_global_mouse_position().x - size.x/2, get_global_mouse_position().y - size.y/2)
 		
 		placed:
+			position = Vector2(0, 0)
 			state = reset
 	
 #	print(cardInfo)
@@ -73,6 +76,8 @@ func _physics_process(delta):
 func _on_focus_mouse_entered():
 	if state != inMouse:
 		state = focusInHand
+		Cards_Database.cardID = self
+		
 
 func _on_focus_mouse_exited():
 	if state != inMouse:

@@ -10,6 +10,7 @@ signal damage
 @onready var ovalRadiusV = SCREENSIZE.y * 0.35
 var ovalAngleVector = Vector2()
 var playerDeck = ["Cleave", "Claw", "Cleave", "Claw"]
+var playerHand = []
 var playerTotalStamina:int = 3
 var playerStamina:int = 3
 var deckSize = playerDeck.size()
@@ -24,7 +25,7 @@ var cardSpread = 0.4
 func _ready():
 	combatOver.connect(endGame)
 	print(playerHandCentrePt)
-	drawCard(deckSize)
+	drawCard(3)
 	$"Player Area/Deck/VBoxContainer/TextureRect/MarginContainer/Label".text = str(playerStamina) + "/" + str(playerTotalStamina)
 	
 func _input(event):
@@ -33,13 +34,14 @@ func _input(event):
 		if cardHolding != null:
 			cardHoldingInfo = Cards_Database.DATA[Cards_Database.get(cardHolding)]
 			if playerStamina >= cardHoldingInfo[3]:
-				playerStamina -= cardHoldingInfo[3]
-				$"Player Area/Deck/VBoxContainer/TextureRect/MarginContainer/Label".text = str(playerStamina)+ "/" + str(playerTotalStamina)
-				print(cardHoldingInfo[4])
-				damage.emit(cardHoldingInfo[4])
 				for i in numCardsInHand:
-					if $Cards.get_child(i).cardName == cardHoldingInfo[1]:
-						$Cards.get_child(i).free()
+					if playerHand[i] == Cards_Database.cardID:
+						playerStamina -= cardHoldingInfo[3]
+						$"Player Area/Deck/VBoxContainer/TextureRect/MarginContainer/Label".text = str(playerStamina)+ "/" + str(playerTotalStamina)
+						print(cardHoldingInfo[4])
+						damage.emit(cardHoldingInfo[4])
+						playerHand.pop_at(i)
+#						$Cards.get_child(i).free()
 						numCardsInHand -= 1
 						organiseHand()
 						break
@@ -53,10 +55,12 @@ func drawCard(drawNum):
 		newCard.cardName = playerDeck[cardDrawn]
 	#	newCard.position = get_global_mouse_position()
 		$Cards.add_child(newCard)
+		playerHand.append(newCard)
 		numCardsInHand += 1
 		organiseHand()
 		playerDeck.erase(playerDeck[cardDrawn])
 		deckSize -= 1
+		print(playerHand)
 	#	cardAngle -= 0.2
 	
 func organiseHand():
@@ -88,8 +92,8 @@ func endGame(): #Shld ending a comabt be decided by the combat scne?
 #when player attacks play the attack anim, after animation finshes animation.stop
 
 func _on_texture_button_pressed():
-	if deckSize == 0:
-		combatOver.emit() #emitting a signal can be slow
+	drawCard(1)
+	pass
 
 
 func _on_activate_area_area_entered(area):
@@ -98,3 +102,8 @@ func _on_activate_area_area_entered(area):
 
 func _on_activate_area_area_exited(area):
 	cardHolding = null
+
+
+func _on_enemy_combat_enemy_health_signal(enemyHP):
+	if enemyHP == 0:
+		combatOver.emit() #emitting a signal can be slow

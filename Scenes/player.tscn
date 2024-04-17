@@ -103,10 +103,12 @@ _data = {
 size = Vector2(12, 3)
 
 [node name="Player" type="CharacterBody2D"]
+z_index = 1
 script = ExtResource("1_2sq41")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_ju1yx")
+offset = Vector2(0, -8)
 hframes = 4
 vframes = 7
 
@@ -116,5 +118,5 @@ libraries = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 6.5)
+position = Vector2(0, -1.5)
 shape = SubResource("RectangleShape2D_rxagd")

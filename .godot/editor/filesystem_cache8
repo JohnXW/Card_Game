@@ -1,81 +1,84 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1698905982
-::res://Art Assets/::1697534358
-cardBacks.png::CompressedTexture2D::8219062984321388295::1695344790::1695345094::1::::<><>::
-cardripFX_spritesheet.png::CompressedTexture2D::6988978910341974485::1695344686::1695345094::1::::<><>::
-cyberpunk-street.png::CompressedTexture2D::148205362579865060::1677669008::1696836630::1::::<><>::
-Desert 2.jpg::CompressedTexture2D::4937595933970792982::1560472975::1695694817::1::::<><>::
-monogram.ttf::FontFile::3097244311766744007::1695607799::1695607812::1::::<><>::
-pixelCardAssest_V01.png::CompressedTexture2D::7518901328749943471::1695344635::1695345094::1::::<><>::
-squareCircle_vector.png::CompressedTexture2D::5678692360807327366::1695344768::1695345099::1::::<><>::
-::res://Art Assets/Attacks/::1696928976
-Arrow.png::CompressedTexture2D::2078657595470221392::1693723883::1695802267::1::::<><>::
-Claw.png::CompressedTexture2D::2866793723738303990::1695802682::1695802687::1::::<><>::
-ClawSprites.png::CompressedTexture2D::29055949478100207::1693723883::1695780671::1::::<><>::
-Cleave.png::CompressedTexture2D::8352004199659540064::1693723883::1695434952::1::::<><>::
-SpriteSheet.png::CompressedTexture2D::4378727146880243647::1693723883::1696928976::1::::<><>::
-::res://Art Assets/CardAssets/::1697534358
-CardBackGreen.png::CompressedTexture2D::6163705189658524103::1696834775::1696834927::1::::<><>::
-CardBackGrey.png::CompressedTexture2D::1818507012374691907::1696834775::1696835003::1::::<><>::
-CardBackPurple.png::CompressedTexture2D::3935759706866785783::1696834775::1696835087::1::::<><>::
-CardBackRed.png::CompressedTexture2D::4508489884701064254::1696834776::1696839083::1::::<><>::
-pixelCardAssest_V01 (1).png::CompressedTexture2D::1381512795351311979::1695347930::1695348069::1::::<><>::
-pixelCardAssest_V01 (2).png::CompressedTexture2D::3621249943870537853::1695347930::1695348069::1::::<><>::
-pixelCardAssest_V01 (3).png::CompressedTexture2D::3283230428249862913::1695347930::1695348069::1::::<><>::
-pixelCardAssest_V01 (4).png::CompressedTexture2D::7621998525567552233::1695347930::1695348069::1::::<><>::
-pixelCardAssest_V01 (5).png::CompressedTexture2D::8728757798973893489::1695347930::1695348069::1::::<><>::
-pixelCardAssest_V01 (6).png::CompressedTexture2D::3201458574825162138::1695347930::1695348069::1::::<><>::
-pixelCardAssest_V01 (7).png::CompressedTexture2D::4246065317710353981::1695370796::1695370799::1::::<><>::
-pixelCardAssest_V01 (8).png::CompressedTexture2D::1795609570605097154::1695692513::1695692513::1::::<><>::
-pixelCardAssest_V01 (9).png::CompressedTexture2D::2694413038740782838::1695370796::1695370799::1::::<><>::
-pixelCardAssest_V01 (10).png::CompressedTexture2D::8206999396513259267::1695370796::1695370799::1::::<><>::
-pixelCardAssest_V01 (11).png::CompressedTexture2D::2322474375501389621::1695370796::1695370799::1::::<><>::
-pixelCardAssest_V01 (12).png::CompressedTexture2D::8067307411733012213::1695477458::1695477498::1::::<><>::
-pixelCardAssest_V01 (13).png::CompressedTexture2D::6102028831287650300::1695477458::1695477498::1::::<><>::
-pixelCardAssest_V01 (14).png::CompressedTexture2D::6367640183517752518::1695477458::1695477498::1::::<><>::
-pixelCardAssest_V01 (15).png::CompressedTexture2D::6954734161296308779::1695477458::1695477498::1::::<><>::
-pixelCardAssest_V01 (16).png::CompressedTexture2D::8295496814077870494::1695477458::1695477498::1::::<><>::
-pixelCardAssest_V01 (17).png::CompressedTexture2D::4082076802097403636::1695477458::1695477498::1::::<><>::
-pixelCardAssest_V01 (18).png::CompressedTexture2D::1160999291625121796::1695693124::1695693126::1::::<><>::
-pixelCardAssest_V01 (19).png::CompressedTexture2D::5664364917183486109::1695481086::1695481089::1::::<><>::
-pixelCardAssest_V01 (20).png::CompressedTexture2D::3634599917611967134::1695477459::1695477498::1::::<><>::
-pixelCardAssest_V01 (21).png::CompressedTexture2D::1901543306504764109::1695622525::1695622563::1::::<><>::
-pixelCardAssest_V01 (22).png::CompressedTexture2D::7597176551092045647::1695622525::1695622563::1::::<><>::
-pixelCardAssest_V01 (23).png::CompressedTexture2D::3203528721903090286::1695622525::1695622563::1::::<><>::
-pixelCardAssest_V01 (24).png::CompressedTexture2D::2546232207568575471::1695622525::1695622563::1::::<><>::
-pixelCardAssest_V01 (25).png::CompressedTexture2D::2114635119960327741::1695622525::1695622563::1::::<><>::
-pixelCardAssest_V01 (26).png::CompressedTexture2D::8030927150980226852::1695622525::1695622563::1::::<><>::
-pixelCardAssest_V01 (27).png::CompressedTexture2D::2559657073530845051::1695622525::1695622563::1::::<><>::
-pixelCardAssest_V01 (28).png::CompressedTexture2D::4479665000335463621::1695622525::1695622563::1::::<><>::
-pixelCardAssest_V01 (29).png::CompressedTexture2D::692286080569537037::1695622525::1695622563::1::::<><>::
-pixelCardAssest_V01 (30).png::CompressedTexture2D::7194658032739759754::1695622526::1695622563::1::::<><>::
-pixelCardAssest_V01 (31).png::CompressedTexture2D::5897637423377070451::1695622526::1695622563::1::::<><>::
-pixelCardAssest_V01.png::CompressedTexture2D::4753989920659976308::1695370796::1695370799::1::::<><>::
-::res://Art Assets/Ninja Adventure/::1698828843
-Beast copy.png::CompressedTexture2D::4529569166818549924::1693723883::1698824912::1::::<><>::
-RedSpirit.png::CompressedTexture2D::745566312051274328::1698826405::1698826409::1::::<><>::
-SkullBlue.png::CompressedTexture2D::603997358798069573::1693723883::1698824912::1::::<><>::
-SpriteSheet.png::CompressedTexture2D::7961337007402085066::1693723883::1696929252::1::::<><>::
-TilesetFloor.png::CompressedTexture2D::8723923081038306647::1693754604::1696929252::1::::<><>::
-TilesetHouse.png::CompressedTexture2D::5948417696022022837::1693754604::1696929252::1::::<><>::
-TilesetNature.png::CompressedTexture2D::5835876596287017030::1693754604::1696929252::1::::<><>::
-WaterEnergy.png::CompressedTexture2D::995756205597257966::1698828842::1698828843::1::::<><>::
-::res://Player/::1697534358
-player.gd::GDScript::-1::1697534358::0::1::::Player<>CharacterBody2D<>::
-::res://Scenes/::1698894850
-card_base.tscn::PackedScene::4985068750978302420::1698894850::0::1::::<><>::uid://txhkw4pb0wtv::::res://Art Assets/CardAssets/pixelCardAssest_V01 (1).png<>res://Scripts/card_base.gd<>uid://0t2or7bxxrfm::::res://Art Assets/CardAssets/pixelCardAssest_V01 (8).png<>uid://bg3xw55qydej3::::res://Art Assets/Attacks/Claw.png<>uid://qsnqu7hmgsoq::::res://Art Assets/CardAssets/pixelCardAssest_V01 (18).png<>uid://bkelfqp2k881h::::res://Art Assets/monogram.ttf<>uid://blv2wdn6ssg5k::::res://Art Assets/CardAssets/pixelCardAssest_V01 (23).png<>uid://bcp6gb2ksc6vf::::res://Art Assets/CardAssets/pixelCardAssest_V01 (27).png
-combat.tscn::PackedScene::5386324375397628239::1698894850::0::1::::<><>::res://Scripts/combat.gd<>uid://ccl2qpdaqqrl3::::res://Art Assets/Desert 2.jpg<>uid://bkelfqp2k881h::::res://Art Assets/monogram.ttf<>uid://drfvfbtarju4i::::res://Scenes/player_combat.tscn<>uid://bql0nwhsxapgi::::res://Scenes/enemy_combat.tscn
-CombatArea.gd::GDScript::-1::1697014902::0::1::::<>Area2D<>::
-enemy_combat.gd::GDScript::-1::1698826207::0::1::::<>Node2D<>::
-enemy_combat.tscn::PackedScene::3533692644512126976::1698894850::0::1::::<><>::res://Scenes/enemy_combat.gd<>uid://kvfmrw7gkitc::::res://Art Assets/Ninja Adventure/RedSpirit.png
-player.tscn::PackedScene::6403659395133995539::1698894850::0::1::::<><>::res://Player/player.gd<>uid://dlosb7j6sww1o::::res://Art Assets/Ninja Adventure/SpriteSheet.png
-player_combat.tscn::PackedScene::8364078349411502410::1698894850::0::1::::<><>::res://Scripts/player_combat.gd<>uid://cqa4hycrji3el::::res://Art Assets/CardAssets/pixelCardAssest_V01 (31).png<>uid://dlosb7j6sww1o::::res://Art Assets/Ninja Adventure/SpriteSheet.png<>uid://ogl7u4mcvdry::::res://Art Assets/Ninja Adventure/WaterEnergy.png
-tile_map.tscn::PackedScene::7450724982922618937::1698894850::0::1::::<><>::uid://dwj60d1rd0jxn::::res://Art Assets/Ninja Adventure/TilesetFloor.png
-World.tscn::PackedScene::8030965646164895917::1698894850::0::1::::<><>::uid://defgl72iiga3r::::res://Scenes/tile_map.tscn<>uid://cxh8lm4e4jdqp::::res://Scenes/player.tscn<>res://Scenes/CombatArea.gd
-::res://Scripts/::1698894850
-cards_database.gd::GDScript::-1::1698819653::0::1::::<>MarginContainer<>::
-card_base.gd::GDScript::-1::1698827545::0::1::::<>MarginContainer<>::
-combat.gd::GDScript::-1::1696842122::0::1::::<>Node2D<>::
-player_combat.gd::GDScript::-1::1698894850::0::1::::<>Node2D<>::
-::res://Useless/::1696929643
-README.md::TextFile::-1::1695283979::0::1::::<><>::
+::res://::1713353604
+::res://Art Assets/::1699097172
+cardBacks.png::CompressedTexture2D::8219062984321388295::1695821287::1695821287::1::::<><>::
+cardripFX_spritesheet.png::CompressedTexture2D::6988978910341974485::1695821287::1695821287::1::::<><>::
+cyberpunk-street.png::CompressedTexture2D::148205362579865060::1697034468::1697034468::1::::<><>::
+Desert 2.jpg::CompressedTexture2D::4937595933970792982::1695821287::1695821287::1::::<><>::
+monogram.ttf::FontFile::3097244311766744007::1695821287::1697034594::1::::<><>::
+pixelCardAssest_V01.png::CompressedTexture2D::7518901328749943471::1695821287::1695821287::1::::<><>::
+squareCircle_vector.png::CompressedTexture2D::5678692360807327366::1695821287::1695821287::1::::<><>::
+::res://Art Assets/Attacks/::1697034468
+Arrow.png::CompressedTexture2D::2078657595470221392::1695821287::1695821287::1::::<><>::
+Claw.png::CompressedTexture2D::2866793723738303990::1695821287::1695821287::1::::<><>::
+ClawSprites.png::CompressedTexture2D::29055949478100207::1695821287::1695821287::1::::<><>::
+Cleave.png::CompressedTexture2D::8352004199659540064::1695821287::1695821287::1::::<><>::
+SpriteSheet.png::CompressedTexture2D::4378727146880243647::1697034468::1697034468::1::::<><>::
+::res://Art Assets/CardAssets/::1699099475
+CardBackGreen.png::CompressedTexture2D::6163705189658524103::1697034468::1697034468::1::::<><>::
+CardBackGrey.png::CompressedTexture2D::1818507012374691907::1697034468::1697034468::1::::<><>::
+CardBackPurple.png::CompressedTexture2D::3935759706866785783::1697034468::1697034468::1::::<><>::
+CardBackRed.png::CompressedTexture2D::2929672392313405451::1697034468::1699099475::1::::<><>::
+pixelCardAssest_V01 (1).png::CompressedTexture2D::1381512795351311979::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (2).png::CompressedTexture2D::3621249943870537853::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (3).png::CompressedTexture2D::3283230428249862913::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (4).png::CompressedTexture2D::7621998525567552233::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (5).png::CompressedTexture2D::8728757798973893489::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (6).png::CompressedTexture2D::3201458574825162138::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (7).png::CompressedTexture2D::4246065317710353981::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (8).png::CompressedTexture2D::1795609570605097154::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (9).png::CompressedTexture2D::2694413038740782838::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (10).png::CompressedTexture2D::8206999396513259267::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (11).png::CompressedTexture2D::2322474375501389621::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (12).png::CompressedTexture2D::8067307411733012213::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (13).png::CompressedTexture2D::6102028831287650300::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (14).png::CompressedTexture2D::6367640183517752518::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (15).png::CompressedTexture2D::6954734161296308779::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (16).png::CompressedTexture2D::8295496814077870494::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (17).png::CompressedTexture2D::4082076802097403636::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (18).png::CompressedTexture2D::1160999291625121796::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (19).png::CompressedTexture2D::5664364917183486109::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (20).png::CompressedTexture2D::3634599917611967134::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (21).png::CompressedTexture2D::1901543306504764109::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (22).png::CompressedTexture2D::7597176551092045647::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (23).png::CompressedTexture2D::3203528721903090286::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (24).png::CompressedTexture2D::2546232207568575471::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (25).png::CompressedTexture2D::2114635119960327741::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (26).png::CompressedTexture2D::8030927150980226852::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (27).png::CompressedTexture2D::2559657073530845051::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (28).png::CompressedTexture2D::4479665000335463621::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (29).png::CompressedTexture2D::692286080569537037::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (30).png::CompressedTexture2D::7194658032739759754::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01 (31).png::CompressedTexture2D::5897637423377070451::1695821287::1695821287::1::::<><>::
+pixelCardAssest_V01.png::CompressedTexture2D::4753989920659976308::1695821287::1695821287::1::::<><>::
+::res://Art Assets/Ninja Adventure/::1699098597
+Beast copy.png::CompressedTexture2D::4529569166818549924::1699097172::1699097172::1::::<><>::
+RedSpirit.png::CompressedTexture2D::745566312051274328::1699097172::1699097172::1::::<><>::
+SkullBlue.png::CompressedTexture2D::603997358798069573::1699097172::1699097172::1::::<><>::
+SpriteSheet.png::CompressedTexture2D::7961337007402085066::1697034468::1697034468::1::::<><>::
+TilesetFloor.png::CompressedTexture2D::8723923081038306647::1697034468::1697034468::1::::<><>::
+TilesetHouse.png::CompressedTexture2D::5948417696022022837::1697034468::1697034468::1::::<><>::
+TilesetInteriorFloor.png::CompressedTexture2D::3712192727303477844::1619800250::1699098597::1::::<><>::
+TilesetNature.png::CompressedTexture2D::5835876596287017030::1697034468::1697034468::1::::<><>::
+TilesetWallSimple.png::CompressedTexture2D::5935847714366809793::1619790030::1699098565::1::::<><>::
+WaterEnergy.png::CompressedTexture2D::995756205597257966::1699097172::1699097172::1::::<><>::
+::res://Player/::1697034468
+player.gd::GDScript::-1::1697034468::0::1::::Player<>CharacterBody2D<>::
+::res://Scenes/::1703780112
+card_base.tscn::PackedScene::4985068750978302420::1703779993::0::1::::<><>::uid://txhkw4pb0wtv::::res://Art Assets/CardAssets/pixelCardAssest_V01 (1).png<>res://Scripts/card_base.gd<>uid://0t2or7bxxrfm::::res://Art Assets/CardAssets/pixelCardAssest_V01 (8).png<>uid://bg3xw55qydej3::::res://Art Assets/Attacks/Claw.png<>uid://qsnqu7hmgsoq::::res://Art Assets/CardAssets/pixelCardAssest_V01 (18).png<>uid://bkelfqp2k881h::::res://Art Assets/monogram.ttf<>uid://blv2wdn6ssg5k::::res://Art Assets/CardAssets/pixelCardAssest_V01 (23).png<>uid://bcp6gb2ksc6vf::::res://Art Assets/CardAssets/pixelCardAssest_V01 (27).png
+combat.tscn::PackedScene::5386324375397628239::1703779993::0::1::::<><>::res://Scripts/combat.gd<>uid://ccl2qpdaqqrl3::::res://Art Assets/Desert 2.jpg<>uid://bkelfqp2k881h::::res://Art Assets/monogram.ttf<>uid://drfvfbtarju4i::::res://Scenes/player_combat.tscn<>uid://bql0nwhsxapgi::::res://Scenes/enemy_combat.tscn
+CombatArea.gd::GDScript::-1::1703775605::0::1::::<>Area2D<>::
+enemy_combat.gd::GDScript::-1::1703779702::0::1::::<>Node2D<>::
+enemy_combat.tscn::PackedScene::3533692644512126976::1703779994::0::1::::<><>::res://Scenes/enemy_combat.gd<>uid://kvfmrw7gkitc::::res://Art Assets/Ninja Adventure/RedSpirit.png
+player.tscn::PackedScene::6403659395133995539::1703779993::0::1::::<><>::res://Player/player.gd<>uid://dlosb7j6sww1o::::res://Art Assets/Ninja Adventure/SpriteSheet.png
+PlayerCamera.gd::GDScript::-1::1703774479::0::1::::<>Camera2D<>::
+player_combat.tscn::PackedScene::8364078349411502410::1703780112::0::1::::<><>::res://Scripts/player_combat.gd<>uid://cqa4hycrji3el::::res://Art Assets/CardAssets/pixelCardAssest_V01 (31).png<>uid://dlosb7j6sww1o::::res://Art Assets/Ninja Adventure/SpriteSheet.png<>uid://ogl7u4mcvdry::::res://Art Assets/Ninja Adventure/WaterEnergy.png
+tile_map.tscn::PackedScene::7450724982922618937::1703779994::0::1::::<><>::uid://dwj60d1rd0jxn::::res://Art Assets/Ninja Adventure/TilesetFloor.png<>uid://cq0ptnmfx0pqb::::res://Art Assets/Ninja Adventure/TilesetHouse.png<>uid://cqtmsrtv4iran::::res://Art Assets/Ninja Adventure/TilesetWallSimple.png<>uid://bs5hjijhbbxfw::::res://Art Assets/Ninja Adventure/TilesetInteriorFloor.png<>uid://cpe7bgmbvklgo::::res://Art Assets/Ninja Adventure/TilesetNature.png
+World.tscn::PackedScene::8030965646164895917::1703779994::0::1::::<><>::uid://defgl72iiga3r::::res://Scenes/tile_map.tscn<>uid://cxh8lm4e4jdqp::::res://Scenes/player.tscn<>res://Scenes/CombatArea.gd<>res://Scenes/PlayerCamera.gd
+::res://Scripts/::1703779993
+cards_database.gd::GDScript::-1::1699105266::0::1::::<>MarginContainer<>::
+card_base.gd::GDScript::-1::1703777928::0::1::::<>MarginContainer<>::
+combat.gd::GDScript::-1::1697034468::0::1::::<>Node2D<>::
+player_combat.gd::GDScript::-1::1703779993::0::1::::<>Node2D<>::
+::res://Useless/::1697034468
+README.md::TextFile::-1::1695821287::0::1::::<><>::

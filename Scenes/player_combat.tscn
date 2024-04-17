@@ -43,7 +43,7 @@ _data = {
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3pmpp"]
-size = Vector2(824, 266)
+size = Vector2(824, 230)
 
 [node name="Player Combat" type="Node2D"]
 script = ExtResource("1_g3l0w")
@@ -116,10 +116,9 @@ libraries = {
 }
 
 [node name="ActivateArea" type="Area2D" parent="."]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ActivateArea"]
-position = Vector2(400, 119)
+position = Vector2(400, 101)
 shape = SubResource("RectangleShape2D_3pmpp")
 
 [connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]
